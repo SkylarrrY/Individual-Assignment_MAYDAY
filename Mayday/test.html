@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .box {
+            width: 1200px;
+            height: 700px;
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .imgList {
+            animation:rolling 18s linear infinite;
+            position: absolute;
+            display: flex;
+        }
+
+        img {
+            height: 100px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        @keyframes rolling {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(-50%);
+            }
+        }
+
+    
+    </style>
+</head>
+
+<body>
+    <h1>图片无缝循环滚动</h1>
+    <div class="box">
+        <div class="imgList">
+            <a href="home.html"><img class="album" src="IMAGE/jiaban.jpeg"></a>
+            &#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;
+            <a href="contact.html"><img class="album" src="IMAGE/2.jpeg"></a>
+            &#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;
+            <a href="about.html"><img class="album" src="IMAGE/rose.jpeg"></a>
+            &#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;
+            <a href="contact.html"><img class="album" src="IMAGE/zizhuan.jpeg"></a>
+            &#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;
+            <a href="about.html"><img class="album" src="IMAGE/sun.jpeg"></a>
+            &#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;
+            <a href="about.html"><img class="album" src="IMAGE/tr.jpeg"></a>
+            &#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;
+            <a href="contact.html"><img class="album" src="IMAGE/ai.jpeg"></a>
+            &#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;
+            <a href="about.html"><img class="album" src="IMAGE/qc.jpeg"></a>
+            &#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;
+            <a href="home.html"><img class="album" src="IMAGE/jiaban.jpeg"></a>
+            &#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;
+            <a href="contact.html"><img class="album" src="IMAGE/2.jpeg"></a>
+            &#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;
+            <a href="about.html"><img class="album" src="IMAGE/rose.jpeg"></a>
+            &#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;
+            <a href="contact.html"><img class="album" src="IMAGE/zizhuan.jpeg"></a>
+            &#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;
+            <a href="about.html"><img class="album" src="IMAGE/sun.jpeg"></a>
+            &#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;
+            <a href="about.html"><img class="album" src="IMAGE/tr.jpeg"></a>
+            &#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;
+            <a href="contact.html"><img class="album" src="IMAGE/ai.jpeg"></a>
+            &#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;&#20;
+            <a href="about.html"><img class="album" src="IMAGE/qc.jpeg"></a>
+      
+        </div>
+    </div>
+</body>
+
+</html>
